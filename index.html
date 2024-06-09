@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <section id="pagetop">
+      <h2>Full Stack Developer</h2>
+      <a href="#" class="cta">Explore</a>
+    </section>
+    <section id="about">
+      <h2 id="about">About Me</h2>
+      <img src="images/kusum.jepg.jpg" alt="myphoto" class="profile-image" />
+      <p>
+        As a Full Stack Developer with extensive experience in both front-end and back-end technologies, I specialize in creating dynamic, responsive, and user-friendly web applications. My expertise spans across HTML, CSS, JavaScript, and modern frameworks such as React and Angular on the front end, complemented by robust back-end development using Node.js, Express, and databases like MongoDB and SQL.  My strong problem-solving skills and dedication to staying updated with the latest industry trends allow me to deliver scalable and efficient solutions. Whether working independently or collaborating with cross-functional teams, I am committed to delivering high-quality projects that meet client requirements and exceed expectations.
+      </p>
+    </section>
+    <section id="skills">
+      <!-- New Skills section -->
+      <h2>My Skills</h2>
+      <div class="skill">
+        <img src="images/skills.png" alt="HTML Icon" class="skill-icon" />
+        <h3>HTML</h3>
+        <p>Proficient in creating structured web content.</p>
+      </div>
+      <div class="skill">
+        <img src="images/skills.png" alt="CSS Icon" class="skill-icon" />
+        <h3>CSS</h3>
+        <p>Skilled in styling and layout design for websites.</p>
+      </div>
+      <div class="skill">
+        <img src="images/skills.png" alt="JavaScript Icon" class="skill-icon" />
+        <h3>JavaScript</h3>
+        <p>Experienced in building interactive web applications.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>
+        If you have any questions or inquiries, feel free to contact using the
+        form below:
+      </p>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br /><br />
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required /><br /><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" required></textarea><br /><br />
+        <input type="submit" value="Submit" onclick="validateForm(event)" />
+      </form>
+    </section>
+
+    <footer>
+      <p>2024 Developed by Reyyi Kusum. All rights reserved.</p>
+    </footer>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
